@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Alan and Vickys Wedding",
   "main": "index.js",
+  "homepage": "https://alanandvickyswedding.github.io/alanandvickyswedding2019",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Ross Daly",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
